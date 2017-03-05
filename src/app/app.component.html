@@ -1,0 +1,28 @@
+<form id="card-form">
+  <div class="panel">
+    <header class="panel-header">
+      <h1>Paysafe</h1>
+    </header>
+
+    <div class="panel-content">
+      <div class="textfield-float-label">
+        <label class="paysafe-js-label" for="card-number">Card Number</label>
+        <div id="card-number" class="paysafe-js"></div>
+      </div>
+
+      <div class="textfield-float-label">
+        <label class="paysafe-js-label" for="expiration-date">Expiration Date</label>
+        <div id="expiration-date" class="paysafe-js"></div>
+      </div>
+
+      <div class="textfield-float-label">
+        <label class="paysafe-js-label" for="cvv">CVV</label>
+        <div id="cvv" class="paysafe-js"></div>
+      </div>
+    </div>
+
+    <footer class="panel-footer">
+      <button class="pay-button" (click)="pay()">Pay</button>
+    </footer>
+  </div>
+</form>
